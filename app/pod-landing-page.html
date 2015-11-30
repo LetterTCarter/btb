@@ -13,7 +13,6 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <!-- endbower -->
-    <link rel="stylesheet" type="text/css" href="jquery.rcrumbs.css">
     <link href='https://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/bower_components/jquery-rcrumbs/dist/jquery.rcrumbs.css">
@@ -79,83 +78,20 @@
       </ul>
     </header>
 
+    <div class="rcrumbs" id="breadcrumbs">
+      <ul>
+          <li><a href="index.html">Home</a><span class="divider">></span></li>
+          <li><a href="pod-landing-page.html">Place of Discovery</a><span class="divider">></span></li>
+      </ul>
+    </div>
+
     <div class="container">
-      <article id="computer" class="imageContainer medium-box visible">
-        <h2 class="visuallyhidden">Computer Services</h2>
-        <img src="images/computer-services-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Computer<br>Services</p>
-      </article>
 
-      <article id="computerOver" class="imageContainer medium-box over">
-        <h2 class="visuallyhidden">Computer Services Over</h2>
-        <ul class="computerServices">
-          <li><a href="laptop-checkout.html">Laptop Check-out</a></li>
-          <li><a href="#">Computer Centers</a></li>
-          <li><a href="#">Print/Copy/Scan/Fax</a></li>
-          <li><a href="#">Projector Check-out</a></li>
-          <li><a href="#">Free WiFi</a></li>
-        </ul>
-        <img src="images/computer-services-over.jpg" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Computer<br>Services</p>
-      </article>
+        <h1>Place of<br>Discovery</h1>
 
-      <article id="people" class="imageContainer medium-box">
-        <h2 class="visuallyhidden">People Services</h2>
-        <img src="images/people-services-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">People<br>Services</p>
-      </article>
+      <div class="4-col-grid">
 
-      <article id="peopleOver" class="imageContainer medium-box over">
-        <h2 class="visuallyhidden">People Services Over</h2>
-        <ul class="peopleServices">
-          <li><a href="#">Meeting Rooms</a></li>
-          <li><a href="#">Virtual Meetings</a></li>
-          <li><a href="#">Notary</a></li>
-          <li><a href="#">Genealogy</a></li>
-          <li><a href="#">Proctoring</a></li>
-        </ul>
-        <img src="images/people-services-over.jpg" alt="Computer Services Icon Graphic"/>
-        <p class="lead">People<br>Services</p>
-      </article>
-
-      <article id="pod" class="imageContainer large-box">
-        <h2 class="visuallyhidden">Place of Discovery</h2>
-        <img src="images/pod-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Place of<br>Discovery</p>
-      </article>
-
-      <article id="podOver" class="imageContainer large-box over">
-        <h2 class="visuallyhidden">Place of Discovery</h2>
-        <ul class="podServices">
-          <li><a href="#">3D Printing</a></li>
-          <li><a href="#">Movie Editing</a></li>
-          <li><a href="#">Circuitry</a></li>
-          <li><a href="#">Model Rocketry</a></li>
-          <li><a href="#">Music Production</a></li>
-          <li><a href="#">Lego Mindstorm</a></li>
-        </ul>
-        <img src="images/pod-over.jpg" alt="Girl using a 3D printer image"/>
-        <p class="lead">Place of<br>Discovery</p>
-      </article>
-
-      <article id="digital" class="imageContainer small-box">
-        <h2 class="visuallyhidden">Digital Library</h2>
-        <img src="images/digital-library-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Digital<br>Library</p>
-      </article>
-
-      <article id="digitalLibraryOver" class="imageContainer small-box over">
-        <h2 class="visuallyhidden">Digital Library Over</h2>
-        <ul class="digitalLibrary">
-          <li><a href="#">Virtual Librarian</a></li>
-          <li><a href="#">RAY: Reading Advice</a></li>
-          <li><a href="#">Overdrive</a></li>
-          <li><a href="#">Freegal Music</a></li>
-          <li><a href="#">Mobile App</a></li>
-        </ul>
-        <img src="images/digital-library-over.jpg" alt="Girl using a smartphone"/>
-        <p class="lead">Digital<br>Library</p>
-      </article>
+      </div>
     </div>
 
     <div class="footer">
@@ -191,6 +127,7 @@
     <script src="/bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
     <script src="/bower_components/imagefill/js/jquery-imagefill.js"></script>
+      <script src="/bower_components/jquery-rcrumbs/dist/jquery.rcrumbs.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->

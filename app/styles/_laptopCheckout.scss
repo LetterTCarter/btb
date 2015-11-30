@@ -17,11 +17,8 @@
     margin: 0;
     padding: 0;
   }
-  blockquote {
-    color: $hpld-blue;
-    font-family: $font-stack-serif;
-    font-size: 2.25em;
-    margin: 30px 0;
+  a {
+    color: $hpld-green;
   }
   .locationNav {
     margin: 0;
@@ -30,6 +27,7 @@
   ul {
     font-family: $font-stack-sanserif;
     font-size: 16px;
+    font-weight: 400;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,7 +40,6 @@
     font-family: $font-stack-sanserif;
     text-transform: uppercase;
   	text-decoration: none;
-    color: $dark-gray;
     padding: 0.625em;
     &:hover {
       color: $white;
@@ -70,5 +67,16 @@
       color: $white;
       background-color: $hpld-green;
     }
+  }
+  .computerAgreement {
+    @include clearfix;
+    margin-top: 50px;
+  }
+}
+
+.rcrumbs ul li a {
+  color: $dark-gray;
+  &:hover {
+    color: $hpld-green;
   }
 }

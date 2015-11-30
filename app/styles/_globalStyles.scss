@@ -29,6 +29,21 @@ body {
 
 a {
   text-decoration: none;
+  color: $dark-gray;
+}
+
+a:visited {
+  color: $hpld-blue;
+}
+
+blockquote {
+  color: $hpld-blue;
+  font-family: $font-stack-serif;
+  font-size: 2.25em;
+  text-align: center;
+  margin: 30px 0;
+  border-left: 10px solid $hpld-light-green;
+  border-right: 10px solid $hpld-light-green;
 }
 
 .container {
