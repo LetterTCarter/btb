@@ -1,0 +1,40 @@
+//iamgeCotainerOver.scss for main page tiles
+
+.over {
+  ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  }
+  li a {
+    font-family: $font-stack-sanserif;
+    text-transform: uppercase;
+    color: $white;
+    display: block;
+  	text-decoration: none;
+    padding: 0.625em;
+  }
+  .computerServices a:hover {
+    color: $white;
+    background-color: $hpld-green;
+  }
+
+  .peopleServices a:hover {
+    color: $white;
+    background-color: $purple;
+  }
+
+  .podServices a:hover {
+    color: $white;
+    background-color: $orange;
+  }
+
+  .digitalLibrary a:hover {
+    color: $white;
+    background-color: $hpld-blue;
+  }
+}

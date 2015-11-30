@@ -1,0 +1,74 @@
+// laptopCheckout Styles
+
+.containerLaptop {
+  @include clearfix;
+  margin: 30px 125px;
+  h1, h2, h3 {
+    color: $hpld-green;
+    font-family: $font-stack-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2 {
+    text-transform: uppercase;
+  }
+  img {
+    max-width: 710px;
+    margin: 0;
+    padding: 0;
+  }
+  blockquote {
+    color: $hpld-blue;
+    font-family: $font-stack-serif;
+    font-size: 2.25em;
+    margin: 30px 0;
+  }
+  .locationNav {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    font-family: $font-stack-sanserif;
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    margin: 0;
+    padding: 10px 0;
+  }
+  li a {
+    font-family: $font-stack-sanserif;
+    text-transform: uppercase;
+  	text-decoration: none;
+    color: $dark-gray;
+    padding: 0.625em;
+    &:hover {
+      color: $white;
+      background-color: $hpld-green;
+    }
+  }
+  strong {
+    color: $hpld-green;
+  }
+  .col-1-2 {
+    width: 49%;
+    float: left;
+    h3 {
+      margin: 0 0 20px 0;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  .btnLaptop {
+    background-color: $light-gray;
+    padding: 0.625em 2em;
+    margin: 90px 0;
+    &:hover {
+      color: $white;
+      background-color: $hpld-green;
+    }
+  }
+}

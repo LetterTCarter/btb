@@ -1,0 +1,91 @@
+// headerStyles.scss
+
+header {
+  position: relative;
+  font-family: $font-stack-serif;
+  color: $hpld-blue;
+  background-color: $light-gray;
+  margin: 0;
+  padding: 1.875em 4.6875em;
+  .uppercase {
+    text-transform: uppercase;
+  }
+  h1 {
+    margin: 0;
+    padding: 0;
+  a {
+      color: $hpld-blue;
+    }
+  }
+  p {
+    font-family: $font-stack-sanserif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $hpld-green;
+    margin: 0;
+    padding: 0;
+  }
+  .mainNav {
+    position: absolute;
+    right: 4.6875em;
+    top: 30px;
+    z-index: 2 !important;
+  }
+  ul {
+    font-family: $font-stack-sanserif;
+    list-style-type: none;
+  	margin: 0;
+  	padding: .3em;
+  }
+
+  li {
+    float: left;
+  	margin-right: .325em;
+  }
+
+  li a {
+    font-family: $font-stack-sanserif;
+    text-transform: uppercase;
+    color: $dark-gray;
+    display: block;
+  	text-decoration: none;
+    padding: 0.625em;
+  }
+
+  li ul {
+    display: none;
+  	position: absolute;
+  	padding: 0;
+  }
+
+  li:hover ul {
+    display: block;
+  }
+
+  li li {
+    float: none;
+  	background-color: $light-gray;
+  }
+
+  .computerServices a:hover {
+    color: $white;
+    background-color: $hpld-green;
+  }
+
+  .peopleServices a:hover {
+    color: $white;
+    background-color: $purple;
+  }
+
+  .podServices a:hover {
+    color: $white;
+    background-color: $orange;
+  }
+
+  .digitalLibrary a:hover {
+    color: $white;
+    background-color: $hpld-blue;
+  }
+}

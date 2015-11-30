@@ -1,0 +1,17 @@
+.css-module {
+  @include clearfix;
+  margin-bottom: 6em;
+  &> h2 {
+    padding: 0.5em 0.25em;
+    font-family: monospace;
+    background-color: $hpld-blue;
+    border-top: 2px dotted #333;
+  }
+  .sample-image {
+    display: block;
+    border: 1px solid #555;
+  }
+  &> *:last-child {
+    border: 1px solid #333;
+  }
+}

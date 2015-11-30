@@ -1,0 +1,44 @@
+// footerStyles.scss
+
+.footer {
+  @include clearfix;
+  width: 100%;
+  background-color: $light-gray;
+  margin: 0;
+  padding: 1.875em 4.6875em;
+  .logoBox {
+    float: left;
+    padding-right: 0.625em;
+    margin: 0;
+    img {
+      margin: 0;
+      padding: 0;
+    }
+    i a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 7px 0;
+    padding: 0;
+    float: left;
+  }
+  li {
+    display: inline-block;
+    border: 1px solid transparent;
+  }
+  li a {
+    text-transform: uppercase;
+    padding: 0.625em;
+    &:hover {
+      color: $white;
+      background-color: $hpld-blue;
+    }
+  }
+  p {
+    float: right;
+    margin: 7px 0;
+  }
+}

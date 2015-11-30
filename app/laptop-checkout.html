@@ -13,7 +13,6 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <!-- endbower -->
-    <link rel="stylesheet" type="text/css" href="jquery.rcrumbs.css">
     <link href='https://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/bower_components/jquery-rcrumbs/dist/jquery.rcrumbs.css">
@@ -79,83 +78,66 @@
       </ul>
     </header>
 
-    <div class="container">
-      <article id="computer" class="imageContainer medium-box visible">
-        <h2 class="visuallyhidden">Computer Services</h2>
-        <img src="images/computer-services-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Computer<br>Services</p>
-      </article>
+    <div class="rcrumbs" id="breadcrumbs">
+      <ul>
+          <li><a href="index.html">Home</a><span class="divider">></span></li>
+          <li><a href="#">Computer</a><span class="divider">></span></li>
+          <li><a href="laptop-checkout.html">Laptop Checkout</a><span class="divider">></span></li>
+      </ul>
+    </div>
 
-      <article id="computerOver" class="imageContainer medium-box over">
-        <h2 class="visuallyhidden">Computer Services Over</h2>
-        <ul class="computerServices">
-          <li><a href="laptop-checkout.html">Laptop Check-out</a></li>
-          <li><a href="#">Computer Centers</a></li>
-          <li><a href="#">Print/Copy/Scan/Fax</a></li>
-          <li><a href="#">Projector Check-out</a></li>
-          <li><a href="#">Free WiFi</a></li>
-        </ul>
-        <img src="images/computer-services-over.jpg" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Computer<br>Services</p>
-      </article>
+    <div class="containerLaptop">
 
-      <article id="people" class="imageContainer medium-box">
-        <h2 class="visuallyhidden">People Services</h2>
-        <img src="images/people-services-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">People<br>Services</p>
-      </article>
+        <h1>Laptop<br>Check-out</h1>
+        <div class="imageContainer">
+          <img src="images/movie-preview.jpg" alt="Movie Still Image"/>
+        </div>
 
-      <article id="peopleOver" class="imageContainer medium-box over">
-        <h2 class="visuallyhidden">People Services Over</h2>
-        <ul class="peopleServices">
-          <li><a href="#">Meeting Rooms</a></li>
-          <li><a href="#">Virtual Meetings</a></li>
-          <li><a href="#">Notary</a></li>
-          <li><a href="#">Genealogy</a></li>
-          <li><a href="#">Proctoring</a></li>
-        </ul>
-        <img src="images/people-services-over.jpg" alt="Computer Services Icon Graphic"/>
-        <p class="lead">People<br>Services</p>
-      </article>
+        <h2>Laptop checks out for 5 days</h2>
+          <p>Pick a time on the calendar that works best for you and make your reservation.
+          Our Laptop Checkout program gives you the choice to pick the date when you need a laptop the most.
+          Laptops check out for a 5 day period. Pick up day is Thursday and due day is Monday.
+          Laptop check out is available at the following locations: Carbon Valley Regional Library, Centennial Park, Erie Community, Farr Regional Library, Kersey, Lincoln Park and the Riverside Library and Cultural Center.</p>
+          <p>Questions? Contact Us</p>
+          <p><a href="#">!!!! Reserve a laptop now !!!!</a></p>
+          <blockquote>Testimonial from patron who used the service</blockquote>
+          <p>Once you select a location, the Borrower Contract will appear. Once you have agreed to the contract, click submit, then pick the date you want to reserve the laptop. See below for the Computer Usage Agreement and a video if you want to watch the check out process.</p>
 
-      <article id="pod" class="imageContainer large-box">
-        <h2 class="visuallyhidden">Place of Discovery</h2>
-        <img src="images/pod-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Place of<br>Discovery</p>
-      </article>
+      <div class="2-col-grid">
+          <div class="col-1-2">
+            <h3>Locations<h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97237.81750375107!2d-104.81070505000001!3d40.393744500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1448847926606" width="310" height="310" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="locationNav">
+              <ul>
+                <li><a href="#">Carbon Valley Regional Library</a></li>
+                <li><a href="#">Centennial Park</a></li>
+                <li><a href="#">Erie Community Library</a></li>
+                <li><a href="#">Farr Regional Library</a></li>
+                <li><a href="#">Kersery Library</a></li>
+                <li><a href="#">Lincoln Park Library</a></li>
+                <li><a href="#">Riverside Library &amp; Community Center</a></li>
+              </ul>
+            </div>
+          </div>
 
-      <article id="podOver" class="imageContainer large-box over">
-        <h2 class="visuallyhidden">Place of Discovery</h2>
-        <ul class="podServices">
-          <li><a href="#">3D Printing</a></li>
-          <li><a href="#">Movie Editing</a></li>
-          <li><a href="#">Circuitry</a></li>
-          <li><a href="#">Model Rocketry</a></li>
-          <li><a href="#">Music Production</a></li>
-          <li><a href="#">Lego Mindstorm</a></li>
-        </ul>
-        <img src="images/pod-over.jpg" alt="Girl using a 3D printer image"/>
-        <p class="lead">Place of<br>Discovery</p>
-      </article>
+          <div class="col-1-2">
+            <h3>Reservations</h3>
+            <p>To view your reservation or to cancel a reservation, please log in.</p>
+            <p><span class="btnLaptop">Log In</span></p>
+            <h3>FAQs</h3>
+            <p><strong>Q: When can I pick up my reserved laptop?</strong><br>
+            A: You can pick up your laptop starting on the Thursday of your reservation. If you can't pick it up on Thursday, you can pick it up any day of your reservation, but be aware you will not get the full 5 day checkout. The laptop must be returned on Monday.
 
-      <article id="digital" class="imageContainer small-box">
-        <h2 class="visuallyhidden">Digital Library</h2>
-        <img src="images/digital-library-main.png" alt="Computer Services Icon Graphic"/>
-        <p class="lead">Digital<br>Library</p>
-      </article>
+            <p><strong>Q: Can I send my husband in to pick up the laptop?</strong><br>
+            A: No, the person who placed the reservation must be the one who picks up the laptop.</p>
 
-      <article id="digitalLibraryOver" class="imageContainer small-box over">
-        <h2 class="visuallyhidden">Digital Library Over</h2>
-        <ul class="digitalLibrary">
-          <li><a href="#">Virtual Librarian</a></li>
-          <li><a href="#">RAY: Reading Advice</a></li>
-          <li><a href="#">Overdrive</a></li>
-          <li><a href="#">Freegal Music</a></li>
-          <li><a href="#">Mobile App</a></li>
-        </ul>
-        <img src="images/digital-library-over.jpg" alt="Girl using a smartphone"/>
-        <p class="lead">Digital<br>Library</p>
-      </article>
+            <p><strong>Q: Can my son return the laptop?</strong><br>
+            A: You can have anyone return the laptop to the library (make sure that it gets checked in with a staff member). Just be aware that whoever checked out the laptop is responsible for any damage to the laptop.</p>
+
+            <p><strong>Q: What happens if I'm a day late returning the laptop?</strong><br>
+            A: The late fees are $50.00 per day.</p>
+          </div>
+      </div>
     </div>
 
     <div class="footer">
@@ -191,6 +173,7 @@
     <script src="/bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
     <script src="/bower_components/imagefill/js/jquery-imagefill.js"></script>
+      <script src="/bower_components/jquery-rcrumbs/dist/jquery.rcrumbs.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
