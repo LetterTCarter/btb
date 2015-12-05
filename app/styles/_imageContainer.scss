@@ -21,6 +21,7 @@
     font-family: $font-stack-sanserif;
     font-weight: normal;
     font-size: 1em;
+    line-height: normal;
     text-transform: uppercase;
     margin: 0;
     padding-bottom: 0.625em;
@@ -28,13 +29,13 @@
 }
 
 .small-box {
-  max-width: 190px;
+  width: 190px;
 }
 
 .medium-box {
-  max-width: 310px;
+  width: 310px;
 }
 
 .large-box {
-  max-width: 430px;
+  width: 430px;
 }

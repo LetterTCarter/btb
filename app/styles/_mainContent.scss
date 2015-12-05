@@ -1,5 +1,6 @@
 // mainContent.scss
 
-.mainContent {
-
+.tileContainer {
+  @include clearfix;
+  margin: 75px 180px;
 }

@@ -38,3 +38,7 @@
     background-color: $hpld-blue;
   }
 }
+
+.under {
+  @include visuallyhidden;
+}
