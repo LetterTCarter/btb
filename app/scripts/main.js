@@ -6,11 +6,11 @@ $(function (){
   $('.imageContainer, .thumbnail, .videoThumb').imagefill();
 
   // breadcrumbs plugin
-  //$('#breadcrumbs').rcrumbs();
+  $('#breadcrumbs').rcrumbs();
 
   // crude rollover functions as proof of concept
 
-  $('#computer').mouseenter(function(){
+  /*$('#computer').mouseenter(function(){
     $('#computer').hide();
     $('#computerOver').removeClass('under');
   });
@@ -34,7 +34,7 @@ $(function (){
   //$('#computerOver').hide();
 
   //jQuery Socialist Plugin for social media feed
-  /*$('.socialFeed').socialist({
+  $('.socialFeed').socialist({
         networks: [
             {name:'facebook',id:'HighPlainsLibraryDistrict'},
             {name:'twitter',id:'MyHPLD'},

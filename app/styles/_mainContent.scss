@@ -1,6 +1,11 @@
 // mainContent.scss
 
-.tileContainer {
+.container {
   @include clearfix;
-  margin: 75px 180px;
+  background-image: url(../images/library-books.jpg);
+  margin: 0 auto;
+}
+
+.tileContainer {
+  margin: 0 180px;
 }

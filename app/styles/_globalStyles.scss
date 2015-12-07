@@ -49,10 +49,19 @@ blockquote {
   border-right: 10px solid $hpld-light-green;
 }
 
-.container {
-  background-color: #fff;
-  width: 100%;
-  margin: 0 auto;
+.language {
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid $hpld-light-green;
+  }
+}
+
+a.language {
+  color: $dark-gray;
+}
+
+.activeLang {
+  border: 1px solid $hpld-light-green;
 }
 
 .visuallyhidden {

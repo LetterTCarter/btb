@@ -18,6 +18,11 @@
   	text-decoration: none;
     padding: 0.625em;
   }
+  p a {
+    color: $white;
+    display: block;
+    padding: 0.625em;
+  }
   .computerServices a:hover {
     color: $white;
     background-color: $hpld-green;
@@ -37,8 +42,4 @@
     color: $white;
     background-color: $hpld-blue;
   }
-}
-
-.under {
-  @include visuallyhidden;
 }
