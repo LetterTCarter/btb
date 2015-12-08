@@ -14,13 +14,17 @@
   h1, h2 {
     text-transform: uppercase;
   }
+  h1 {
+    margin-bottom: 30px;
+  }
   .videoThumb {
-    width: 100%;
-    height: 400px;
-    margin: 30px 0;
+    width: 310px;
+    height: 310px;
+    margin-left: 30px;
+    padding: 30px;
+    float: right;
   }
   img {
-    max-width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -31,45 +35,52 @@
     margin: 0;
     padding: 0;
   }
-  ul {
-    font-family: $font-stack-sanserif;
-    font-size: 16px;
-    font-weight: 400;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  ul li {
-    margin: 0;
-    padding: 10px 0;
-  }
-  li a {
-    font-family: $font-stack-sanserif;
-    text-transform: uppercase;
-  	text-decoration: none;
-    padding: 0.625em;
-    &:hover {
-      color: $white;
-      background-color: $hpld-green;
-    }
-  }
   strong {
     color: $hpld-green;
   }
+
   .col-1-2 {
     width: 49%;
     float: left;
+    margin: 0;
     h3 {
       margin: 30px 0 20px 0;
     }
     p {
       margin-bottom: 30px;
     }
+    ul {
+      font-family: $font-stack-sanserif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 3em;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul li {
+      margin: 0;
+      padding: 0;
+    }
+    li a {
+      font-family: $font-stack-sanserif;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.625em;
+      &:hover {
+        color: $white;
+        background-color: $hpld-green;
+      }
+    }
+  }
+  .rightColumn {
+    margin: 0;
+    padding-left: 30px;
   }
   .btnLaptop {
     background-color: $light-gray;
+    margin-top: 30px;
     padding: 0.625em 2em;
-    margin: 90px 0;
     &:hover {
       color: $white;
       background-color: $hpld-green;
@@ -77,6 +88,13 @@
   }
   .computerAgreement {
     @include clearfix;
+    background: linear-gradient($light-gray, transparent);
     margin-top: 50px;
+    border-top: 1px dotted $hpld-light-green;
+    border-bottom: 1px dotted $hpld-light-green;
+    padding: 15px;
+    ul li {
+      line-height: 2em;
+    }
   }
 }
